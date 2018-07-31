@@ -48,5 +48,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SAX.Configuration\SAX.Configuration.csproj">
+      <Project>{e5027d3d-b8ac-494d-8c8a-6220418c47dc}</Project>
+      <Name>SAX.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAX.Data\SAX.Data.csproj">
+      <Project>{cd24262d-a154-4dd4-b885-783c4d6762a8}</Project>
+      <Name>SAX.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAX.Helper\SAX.Helper.csproj">
+      <Project>{44cb3802-48fa-4f3a-b6ad-dc45a3a72086}</Project>
+      <Name>SAX.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAX.Model\SAX.Model.csproj">
+      <Project>{84983948-e359-4108-ad2f-c7364693c065}</Project>
+      <Name>SAX.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SAX\SAX.csproj">
+      <Project>{6bf1b806-b2f7-461e-9085-bd62b3801c82}</Project>
+      <Name>SAX</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

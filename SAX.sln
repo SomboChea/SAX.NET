@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAX.Configuration", "SAX.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAX.Helper", "SAX.Helper\SAX.Helper.csproj", "{44CB3802-48FA-4F3A-B6AD-DC45A3A72086}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAX", "SAX\SAX.csproj", "{6BF1B806-B2F7-461E-9085-BD62B3801C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAX.Logging", "SAX.Logging\SAX.Logging.csproj", "{C6DFB050-5A5D-4B91-AC98-92DD67F277D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{44CB3802-48FA-4F3A-B6AD-DC45A3A72086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44CB3802-48FA-4F3A-B6AD-DC45A3A72086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44CB3802-48FA-4F3A-B6AD-DC45A3A72086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF1B806-B2F7-461E-9085-BD62B3801C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF1B806-B2F7-461E-9085-BD62B3801C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF1B806-B2F7-461E-9085-BD62B3801C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF1B806-B2F7-461E-9085-BD62B3801C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DFB050-5A5D-4B91-AC98-92DD67F277D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DFB050-5A5D-4B91-AC98-92DD67F277D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DFB050-5A5D-4B91-AC98-92DD67F277D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DFB050-5A5D-4B91-AC98-92DD67F277D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

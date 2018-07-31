@@ -2,7 +2,11 @@
 
 namespace SAX.Data
 {
-    public class Class1
+    public class Database
     {
+        public Database()
+        {
+            Console.WriteLine("Data is starting...");
+        }
     }
 }
