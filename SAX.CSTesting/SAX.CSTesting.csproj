@@ -61,6 +61,10 @@
       <Project>{44cb3802-48fa-4f3a-b6ad-dc45a3a72086}</Project>
       <Name>SAX.Helper</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SAX.Logging\SAX.Logging.csproj">
+      <Project>{c6dfb050-5a5d-4b91-ac98-92dd67f277d0}</Project>
+      <Name>SAX.Logging</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SAX.Model\SAX.Model.csproj">
       <Project>{84983948-e359-4108-ad2f-c7364693c065}</Project>
       <Name>SAX.Model</Name>
